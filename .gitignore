@@ -1,0 +1,136 @@
+
+# ==========================================
+# Java — Compiled Files & Archives
+# ==========================================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+# ==========================================
+# Build Directories
+# ==========================================
+target/
+build/
+out/
+bin/
+dist/
+.gradle/
+.mtj.tmp/
+
+# ==========================================
+# IntelliJ IDEA
+# ==========================================
+.idea/
+*.iml
+*.ipr
+*.iws
+cmake-build-*/
+
+# ==========================================
+# Eclipse
+# ==========================================
+.project
+.classpath
+.settings/
+.metadata/
+.recommenders/
+.factorypath
+*.launch
+
+# ==========================================
+# Visual Studio Code
+# ==========================================
+.vscode/
+.history/
+
+# ==========================================
+# NetBeans
+# ==========================================
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# ==========================================
+# Maven & Gradle
+# ==========================================
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+gradle-app.setting
+
+# Keep Gradle Wrapper
+!gradle/wrapper/gradle-wrapper.jar
+
+# ==========================================
+# Logs & Debugging
+# ==========================================
+*.log
+logs/
+log/
+*.hprof
+heapdump*
+hs_err_pid*
+replay_pid*
+*.jfr
+
+# ==========================================
+# Test Results & Coverage
+# ==========================================
+test-output/
+coverage/
+.coverage
+*.exec
+*.ec
+*.lcov
+
+# ==========================================
+# Temporary & Backup Files
+# ==========================================
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*.swo
+*~
+.cache/
+
+# ==========================================
+# Environment & Local Configuration
+# ==========================================
+.env
+.env.*
+!.env.example
+*.local.properties
+
+# ==========================================
+# Operating Systems
+# ==========================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100/
+.Trashes/
+
+# Linux
+.directory
+.Trash-*/
+.nfs*
+
+# ==========================================
+# Gradle Wrapper Exception
+# ==========================================
+!gradle/wrapper/
+!gradle/wrapper/gradle-wrapper.jar
