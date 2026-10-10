@@ -32,7 +32,7 @@ public class HttpRequestParser {
      * connection is closed
      * @throws IOException if an I/O error occurs while reading the request
      */
-    public HttpRequest getRequest() throws IOException {
+    public HttpRequest parse() throws IOException {
         String firstLine = realLine();
         if (firstLine == null) {
             return null;
