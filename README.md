@@ -73,13 +73,13 @@ This project is intended for educational purposes and does not aim to provide a 
 | Method | Path | HTTP Request | HTTP Response |
 |---|---|---|---|
 | GET | `/` | No body | 200 OK — Plain text: "Mini HTTP Server" |
-| GET | `/hello` | No body | `200 OK` — Plain text: "Hello, World!" |
-| GET | `/users` | No body | `200 OK` — JSON array of users |
-| GET | `/users/1` | No body | `200 OK` — JSON containing user 1's details |
-| POST | `/users` | JSON containing name and email | `201 Created` — JSON containing the created user and its ID |
-| PUT | `/users/1` | JSON containing updated user details | `200 OK` — JSON containing the updated user |
-| DELETE | `/users/1` | No body | `204 No Content` — No body |
-| POST | `/echo` | Plain text body | `200 OK` — Returns the same text |
+| GET | `/hello` | No body | 200 OK — Plain text: "Hello, World!" |
+| GET | `/users` | No body | 200 OK — JSON array of users |
+| GET | `/users/1` | No body | 200 OK — JSON containing user 1's details |
+| POST | `/users` | JSON containing name and email | 201 Created — JSON containing the created user and its ID |
+| PUT | `/users/1` | JSON containing updated user details | 200 OK — JSON containing the updated user |
+| DELETE | `/users/1` | No body | 204 No Content — No body |
+| POST | `/echo` | Plain text body | 200 OK — Returns the same text |
 
 <br>
 
